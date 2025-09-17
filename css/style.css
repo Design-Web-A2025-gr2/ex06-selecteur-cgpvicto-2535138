@@ -1,0 +1,40 @@
+h1{
+    color: red;
+    font-size: 3em;
+}
+span {
+    font-size: 2em;
+    color: green;
+    font-style: italic;
+}   
+p {
+    text-align: justify;
+    color: grey;
+}
+#lettre1 {
+    color: purple;
+}
+.paragraphe .titre{
+    color: blue;
+}
+.paragraphe .titre:hover {
+
+    color : orange;
+}
+a {
+    text-decoration: underline wavy red;
+}
+a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+#bloc_consignes {
+    border: 2px solid #daa520;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    background-image:url(/css/ex04_image_fond.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
